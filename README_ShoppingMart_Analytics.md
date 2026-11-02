@@ -68,26 +68,9 @@ The pipeline shown in the Fabric Monitoring Hub is named:
 1. **Lookup activity** – `Lookup_ShoppingMart_MetaDataU...` retrieves metadata used by the pipeline.
 2. **ForEach activity** – `ForEachSourceUnStructuredFiles` iterates over the unstructured-file items.
 3. **Delete activity** – `Delete_ExistingFile` removes an existing destination file before copying, according to the pipeline configuration.
-4. **Copy activity** – `Copy_ShoppingMart_Unstr...` copies the source files to the configured destination.
+4. **Copy activity** – `Copy_ShoppingMart_Unstr...` copies the source files to the configured destination
 
-The screenshot shows the pipeline run as **Succeeded** in the Monitoring Hub.
-
-### Run details visible in the screenshot
-
-| Property | Value |
-|---|---|
-| Pipeline | `ShoppingMart_UnStructuredDataIngestBronzeLayer_copy1` |
-| Run status | Succeeded |
-| Start time | October 31, 2026, 8:56:18 PM |
-| End time | October 31, 2026, 8:56:51 PM |
-| Overall run duration | Approximately 33 seconds |
-| ForEach activity | Succeeded |
-| ForEach duration | 22 seconds |
-| Copy activities shown | Succeeded |
-| Delete activities shown | Succeeded |
-
-The run details are a record of the execution shown in the screenshot, not a guarantee of future runs.
-
+   
 ## Medallion Data Processing
 
 ### 1. Bronze Layer
@@ -210,6 +193,6 @@ The provided Fabric Monitoring Hub screenshot shows the unstructured Bronze inge
 
 ---
 
-**Author:** Add your name  
+**Author:** Uttam Giri  
 **Project:** ShoppingMart Analytics  
 **Platform:** Microsoft Fabric
